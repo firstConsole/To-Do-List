@@ -23,7 +23,6 @@ final class ListViewCell: UITableViewCell {
     static let identificator: String = "ListCell"
     static let nib: String = "ListViewCell"
     var isChecked: Bool = false
-    weak var finishedTask: FinishedTaskDelegate?
     var target: Target?
     
     // MARK: - configure cell
